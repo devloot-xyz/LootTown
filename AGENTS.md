@@ -6,4 +6,5 @@
 - Current DevLoot wire contracts and proposed LootTown contracts are distinct. Cite current server source when changing integrations. Do not fabricate a deployed LootTown API.
 - Bounty payment and authorization stay in DevLoot. Monsters are a future design proposal, not a combat or payout system in this base.
 - Keep the offline synthetic demo explicit. Do not copy GitCity code or assets. Track provenance and license for each imported asset.
+- Large fixtures must remain deterministic, fictional, and valid against each venue's versioned contract. Limit rendered characters independently from dataset size.
 - Do not start another DevLoot stack or alter its database, secrets, or production resources from this repository.

@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { uniquePeople } from '../domain/community';
+import { uniquePeople } from '../domain/community.ts';
 
 // Proposed LootTown projection, not an existing DevLoot endpoint.
 export const venueV1 = z.object({

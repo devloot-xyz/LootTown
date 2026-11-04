@@ -2,7 +2,7 @@
 
 LootTown is an open source browser experience for DevLoot communities. The planned world is a global map of venues: **one DevLoot community is one venue**, scaled by its unique contributors across linked repositories. Inside, real contributors appear as distinct characters at an event. The current repository is a **technical base**, not a live integration or a finished game.
 
-The running preview uses a fictional community and three fictional people. It works without an account, API, wallet, token, or internet after dependencies are installed. Its simple geometry proves a 3D scene, orbit controls, a small animation, readable information outside WebGL, and a motion toggle. It does not claim real people, online presence, complete commit attribution, bounty mechanics, or production performance.
+The default preview uses a fictional community and three fictional people. A checked-in large synthetic fixture offers 40 communities with 213–574 members each, 15,866 community-person memberships, 5,645 distinct fictional identities, 168 fictional repositories, and 207 community-repository links. It works without an account, API, wallet, token, or internet after dependencies are installed. Its simple geometry proves a 3D scene, orbit controls, a small animation, readable information outside WebGL, and a motion toggle. It does not claim real people, online presence, complete commit attribution, bounty mechanics, or production performance.
 
 ## Quick start
 
@@ -14,6 +14,18 @@ npm run dev
 ```
 
 Open <http://localhost:5174>. On Windows, run these commands in WSL Ubuntu or PowerShell with Node 24; a WSL server bound to `0.0.0.0` is usually reachable via Windows `localhost`. Run `npm run build`, `npm run typecheck`, `npm run lint`, and `npm test` before a PR. `npm run preview` serves the production build at <http://localhost:4174>.
+
+Open the large fixture at <http://localhost:5174/?fixture=large> and choose among the 40 venues. The default page does not load its 1.72 MB JSON. The large page validates the whole dataset, then displays one selected venue at a time: at most **6** characters in 3D and **12** text cards, while reporting the venue's full member count. The full records remain in [`public/fixtures/large.json`](public/fixtures/large.json); this preview is not a global map or a crowd benchmark.
+
+The JSON is deterministically regenerated with:
+
+```sh
+npm run seed:generate
+# Optional alternate seed and output (Node 24):
+npm run seed:generate -- --seed my-test-seed --out work/alternate-fixture.json
+```
+
+The default command overwrites `public/fixtures/large.json` with identical bytes. Keep the default seed for changes to the committed fixture; use `work/` for disposable alternate exports and never commit those. `npm test` compares the checked-in bytes with the generator. The Docker Compose service mounts the source and serves the same fixture with HMR, so rerun `npm run seed:generate` on the host or inside the `web` container to refresh it. For a static Docker image, rebuild after regenerating.
 
 Docker Desktop with WSL integration is optional:
 
@@ -29,6 +41,9 @@ No environment file is required. [.env.example](.env.example) documents the futu
 
 - `src/domain/`: pure avatar band, identity deduplication, and **proposed** venue threshold rules.
 - `src/demo.ts`: clearly synthetic fixture.
+- `src/seed/`: deterministic generator, envelope validation, and JSON export command.
+- `public/fixtures/large.json`: versioned large fixture; no live DevLoot records.
+- `docs/fixture.md`: regeneration, exact scale, synthetic semantics, and rendering limits.
 - `src/scene/`: placeholder 3D venue and lightweight motion.
 - `src/App.tsx`: accessible text shell and WebGL fallback.
 - `docs/product.md`: current product rules, data policies, and limits.
