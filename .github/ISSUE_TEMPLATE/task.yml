@@ -1,0 +1,35 @@
+name: Backlog task
+description: Propose one scoped LootTown or DevLoot backlog task
+title: "[Task] "
+body:
+  - type: input
+    id: backlog
+    attributes:
+      label: Backlog ID and owner repository
+      placeholder: "03 · LootTown"
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Objective, scope and exclusions
+    validations:
+      required: true
+  - type: textarea
+    id: contract
+    attributes:
+      label: Dependencies, inputs and outputs
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria and evidence
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: Risks, data or asset provenance, and ready-to-fund conditions
+    validations:
+      required: true
