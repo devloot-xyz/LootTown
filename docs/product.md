@@ -18,7 +18,7 @@ Body variation stays around 10%; most progression is clothing and accessories. I
 
 ## Proposed and unresolved
 
-`proposedVenue()` currently uses 0–9 plaza, 10–49 hall, 50–199 warehouse, and 200+ arena for the synthetic demo. These cutoffs and the zero-contributor presentation require product approval before live use. Keep them in one central function and test boundaries. Venue count is distinct from avatar commit count.
+The world can include houses, plazas, halls, warehouses, and larger concert spaces. Contributor-count cutoffs, the zero-contributor presentation, and the visual scale of each venue require an approved art and product specification. No venue cutoff is implemented in this scaffold. Venue count is distinct from avatar commit count.
 
 Eligibility and coverage require a backend policy: identify bots, unlinked authors, deleted/renamed GitHub accounts, forks, mirrored commits, coauthors, repositories with missing or partial sync, and duplicate commit SHAs across linked repositories. A public projection must declare its time window, inclusion rule, source coverage, freshness, and whether counts are known. Do not infer a definitive zero from an empty page or an unavailable provider. Stable GitHub IDs identify accounts; a human uniqueness guarantee across accounts is not available.
 

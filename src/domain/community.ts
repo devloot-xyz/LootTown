@@ -32,12 +32,3 @@ export function uniquePeople(rows: CommunityPerson[]): CommunityPerson[] {
   }
   return [...people.values()].filter((person) => person.eligible);
 }
-
-// Venue thresholds are design proposals, not approved product rules.
-export function proposedVenue(contributors: number): 'plaza' | 'hall' | 'warehouse' | 'arena' {
-  if (!Number.isSafeInteger(contributors) || contributors < 0) throw new Error('Invalid contributor count');
-  if (contributors < 10) return 'plaza';
-  if (contributors < 50) return 'hall';
-  if (contributors < 200) return 'warehouse';
-  return 'arena';
-}

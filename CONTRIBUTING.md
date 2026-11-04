@@ -1,7 +1,7 @@
 # Contributing to LootTown
 
 1. Read [product rules](docs/product.md), [contracts](docs/contracts.md), and [backlog](docs/backlog.md). Choose a task with clear dependencies; discuss changes to approved avatar bands or proposed venue thresholds first.
-2. Use Node 24, `npm ci`, and the scripts in README. Keep the synthetic demo usable offline. A PR should focus on one backlog task.
+2. Use Node 24, `npm ci`, and the scripts in README. Keep the neutral bootstrap and JSON fixture usable offline. A PR should focus on one published issue.
    If changing the generator, run `npm run seed:generate`, commit its JSON output, and run `npm test` to verify deterministic bytes and all venue records. Alternate experiments belong under ignored `work/`.
 3. Include a short before/after explanation, tests run and results, and a screenshot or short recording for scene or UI changes. Test keyboard and reduced motion behavior. Describe measured device/browser results instead of promising FPS.
 4. For new third-party assets, record author, source URL, license, modifications, and attribution in the PR and an asset manifest. Do not paste GitCity AGPL code/assets into MIT source.
