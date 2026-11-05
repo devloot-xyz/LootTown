@@ -1,6 +1,6 @@
 # Implementation backlog
 
-The [world delivery tracker](https://github.com/devloot-xyz/LootTown/issues/1) links the published, reviewable tasks. Each issue names its owner, prerequisites, inputs and outputs, exclusions, acceptance checks, evidence, and funding readiness. Creating an issue does not fund a bounty or assign a contributor. Product rules and contract limitations remain in [product.md](product.md) and [contracts.md](contracts.md).
+The [completed planning tracker](https://github.com/devloot-xyz/LootTown/issues/1) is a closed, consultable index of the 23 task issues below. The tracker itself is delivered planning work, not an implementation task or bounty. Each issue names its owner, prerequisites, inputs and outputs, exclusions, acceptance checks, evidence, and funding readiness. Creating an issue does not fund a bounty or assign a contributor. Product rules and contract limitations remain in [product.md](product.md) and [contracts.md](contracts.md).
 
 The React 18 / React Three Fiber / Vite foundation, Docker path, CI, proposed data contract, and 40-community synthetic fixture are in place. The root app is intentionally neutral until real world, venue, and show work lands; it is not an art reference.
 

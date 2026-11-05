@@ -33,7 +33,7 @@ Regenerate byte-identical default data with `npm run seed:generate`. Use `npm ru
 
 - [Architecture](docs/architecture.md) explains the stack, asset provenance, host integration, accessibility and performance constraints.
 - [Contracts](docs/contracts.md) distinguishes inspected DevLoot HTTP responses from proposed LootTown data. A complete, deduplicated community commit projection is still required upstream.
-- [GitHub issues](docs/backlog.md) are the ordered, actionable work plan. The scaffold and seed already delivered here must not be offered again as bounties.
+- [The published backlog](docs/backlog.md) lists 23 implementation and design tasks. Its [planning tracker](https://github.com/devloot-xyz/LootTown/issues/1) is complete and closed; neither the tracker nor the scaffold and seed should be offered as bounties.
 - [Contributing](CONTRIBUTING.md) defines PR evidence and completion checks. No bounty is financed merely because an issue exists.
 
 Original code is [MIT licensed](LICENSE). Every third-party model, animation, sound, font, or texture needs compatible license and source records. GitCity is an AGPL-3.0 conceptual reference; no code or assets from it are included here. Never put tokens or private keys in `VITE_*` environment variables, which are exposed to browsers.
