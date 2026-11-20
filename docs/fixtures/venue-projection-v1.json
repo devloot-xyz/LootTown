@@ -1,0 +1,399 @@
+{
+  "fixtureVersion": 1,
+  "description": "Synthetic response fixtures for DevLoot upstream public community venue projections (Issue #4)",
+  "scenarios": [
+    {
+      "name": "complete-standard",
+      "description": "Standard community with two synced public repositories and complete coverage",
+      "httpStatus": 200,
+      "projection": {
+        "schemaVersion": 1,
+        "community": {
+          "id": 1001,
+          "name": "Hyperion Protocol"
+        },
+        "coverage": {
+          "complete": true,
+          "state": "complete",
+          "lastSyncedAt": "2026-11-20T10:00:00.000Z",
+          "policyVersion": "1.0.0"
+        },
+        "repositories": [
+          {
+            "id": 501,
+            "visibility": "public",
+            "syncStatus": "synced",
+            "lastSyncedAt": "2026-11-20T10:00:00.000Z"
+          },
+          {
+            "id": 502,
+            "visibility": "public",
+            "syncStatus": "synced",
+            "lastSyncedAt": "2026-11-20T09:45:00.000Z"
+          }
+        ],
+        "pagination": {
+          "page": 1,
+          "limit": 50,
+          "totalPeople": 3,
+          "totalPages": 1,
+          "snapshotId": "snap-2026-11-20-hyp-01",
+          "nextCursor": null
+        },
+        "people": [
+          {
+            "githubId": 80101,
+            "handle": "hyperion-architect",
+            "communityCommitCount": 420,
+            "eligible": true
+          },
+          {
+            "githubId": 80102,
+            "handle": "core-kernel-dev",
+            "communityCommitCount": 85,
+            "eligible": true
+          },
+          {
+            "githubId": 80103,
+            "handle": "docs-maintainer",
+            "communityCommitCount": 12,
+            "eligible": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "shared-repositories",
+      "description": "A repository shared between Community A and Community B, maintaining independent community attribution",
+      "httpStatus": 200,
+      "projection": {
+        "schemaVersion": 1,
+        "community": {
+          "id": 1002,
+          "name": "Web3 Shared Tooling Community"
+        },
+        "coverage": {
+          "complete": true,
+          "state": "complete",
+          "lastSyncedAt": "2026-11-20T11:00:00.000Z",
+          "policyVersion": "1.0.0"
+        },
+        "repositories": [
+          {
+            "id": 502,
+            "visibility": "public",
+            "syncStatus": "synced",
+            "lastSyncedAt": "2026-11-20T11:00:00.000Z"
+          },
+          {
+            "id": 503,
+            "visibility": "public",
+            "syncStatus": "synced",
+            "lastSyncedAt": "2026-11-20T10:50:00.000Z"
+          }
+        ],
+        "pagination": {
+          "page": 1,
+          "limit": 50,
+          "totalPeople": 2,
+          "totalPages": 1,
+          "snapshotId": "snap-2026-11-20-shared-01",
+          "nextCursor": null
+        },
+        "people": [
+          {
+            "githubId": 80102,
+            "handle": "core-kernel-dev",
+            "communityCommitCount": 35,
+            "eligible": true
+          },
+          {
+            "githubId": 80201,
+            "handle": "shared-ecosystem-lead",
+            "communityCommitCount": 110,
+            "eligible": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "bot-and-unlinked-filtered",
+      "description": "Bot accounts and unlinked ghosts filtered out of eligible human contributor roster",
+      "httpStatus": 200,
+      "projection": {
+        "schemaVersion": 1,
+        "community": {
+          "id": 1003,
+          "name": "Automated Infrastructure Collective"
+        },
+        "coverage": {
+          "complete": true,
+          "state": "complete",
+          "lastSyncedAt": "2026-11-20T08:00:00.000Z",
+          "policyVersion": "1.0.0"
+        },
+        "repositories": [
+          {
+            "id": 504,
+            "visibility": "public",
+            "syncStatus": "synced",
+            "lastSyncedAt": "2026-11-20T08:00:00.000Z"
+          }
+        ],
+        "pagination": {
+          "page": 1,
+          "limit": 50,
+          "totalPeople": 2,
+          "totalPages": 1,
+          "snapshotId": "snap-2026-11-20-bot-01",
+          "nextCursor": null
+        },
+        "people": [
+          {
+            "githubId": 80301,
+            "handle": "infra-human-engineer",
+            "communityCommitCount": 74,
+            "eligible": true
+          },
+          {
+            "githubId": 80302,
+            "handle": "code-reviewer-alpha",
+            "communityCommitCount": 5,
+            "eligible": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "overlapping-shas-deduplicated",
+      "description": "Contributor commit SHAs duplicated across fork/mirror repositories deduplicated to exact unique count",
+      "httpStatus": 200,
+      "projection": {
+        "schemaVersion": 1,
+        "community": {
+          "id": 1004,
+          "name": "Multi-Repo Monorepo Federation"
+        },
+        "coverage": {
+          "complete": true,
+          "state": "complete",
+          "lastSyncedAt": "2026-11-20T09:15:00.000Z",
+          "policyVersion": "1.0.0"
+        },
+        "repositories": [
+          {
+            "id": 505,
+            "visibility": "public",
+            "syncStatus": "synced",
+            "lastSyncedAt": "2026-11-20T09:15:00.000Z"
+          },
+          {
+            "id": 506,
+            "visibility": "public",
+            "syncStatus": "synced",
+            "lastSyncedAt": "2026-11-20T09:15:00.000Z"
+          }
+        ],
+        "pagination": {
+          "page": 1,
+          "limit": 50,
+          "totalPeople": 1,
+          "totalPages": 1,
+          "snapshotId": "snap-2026-11-20-overlap-01",
+          "nextCursor": null
+        },
+        "people": [
+          {
+            "githubId": 80401,
+            "handle": "cross-repo-author",
+            "communityCommitCount": 1,
+            "eligible": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "empty-community",
+      "description": "Newly registered community with zero historical commits or contributors",
+      "httpStatus": 200,
+      "projection": {
+        "schemaVersion": 1,
+        "community": {
+          "id": 1005,
+          "name": "Freshly Minted Project"
+        },
+        "coverage": {
+          "complete": true,
+          "state": "empty",
+          "lastSyncedAt": "2026-11-20T07:30:00.000Z",
+          "policyVersion": "1.0.0"
+        },
+        "repositories": [
+          {
+            "id": 507,
+            "visibility": "public",
+            "syncStatus": "synced",
+            "lastSyncedAt": "2026-11-20T07:30:00.000Z"
+          }
+        ],
+        "pagination": {
+          "page": 1,
+          "limit": 50,
+          "totalPeople": 0,
+          "totalPages": 0,
+          "snapshotId": "snap-2026-11-20-empty-01",
+          "nextCursor": null
+        },
+        "people": []
+      }
+    },
+    {
+      "name": "partial-sync",
+      "description": "Community where one repository scan is still in progress, mandating null commit counts",
+      "httpStatus": 200,
+      "projection": {
+        "schemaVersion": 1,
+        "community": {
+          "id": 1006,
+          "name": "Partially Indexed Collective"
+        },
+        "coverage": {
+          "complete": false,
+          "state": "partial",
+          "lastSyncedAt": null,
+          "policyVersion": "1.0.0"
+        },
+        "repositories": [
+          {
+            "id": 508,
+            "visibility": "public",
+            "syncStatus": "synced",
+            "lastSyncedAt": "2026-11-20T06:00:00.000Z"
+          },
+          {
+            "id": 509,
+            "visibility": "public",
+            "syncStatus": "pending",
+            "lastSyncedAt": null
+          }
+        ],
+        "pagination": {
+          "page": 1,
+          "limit": 50,
+          "totalPeople": 2,
+          "totalPages": 1,
+          "snapshotId": "snap-2026-11-20-part-01",
+          "nextCursor": null
+        },
+        "people": [
+          {
+            "githubId": 80601,
+            "handle": "partial-member-one",
+            "communityCommitCount": null,
+            "eligible": true
+          },
+          {
+            "githubId": 80602,
+            "handle": "partial-member-two",
+            "communityCommitCount": null,
+            "eligible": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "stale-sync",
+      "description": "Community whose last successful provider synchronization is older than 48 hours",
+      "httpStatus": 200,
+      "projection": {
+        "schemaVersion": 1,
+        "community": {
+          "id": 1007,
+          "name": "Stale Snapshot Collective"
+        },
+        "coverage": {
+          "complete": false,
+          "state": "stale",
+          "lastSyncedAt": "2026-11-15T00:00:00.000Z",
+          "policyVersion": "1.0.0"
+        },
+        "repositories": [
+          {
+            "id": 510,
+            "visibility": "public",
+            "syncStatus": "stale",
+            "lastSyncedAt": "2026-11-15T00:00:00.000Z"
+          }
+        ],
+        "pagination": {
+          "page": 1,
+          "limit": 50,
+          "totalPeople": 1,
+          "totalPages": 1,
+          "snapshotId": "snap-2026-11-15-stale-01",
+          "nextCursor": null
+        },
+        "people": [
+          {
+            "githubId": 80701,
+            "handle": "stale-contributor",
+            "communityCommitCount": null,
+            "eligible": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "ten-linked-repositories",
+      "description": "Community saturating the maximum allowable limit of 10 linked repositories",
+      "httpStatus": 200,
+      "projection": {
+        "schemaVersion": 1,
+        "community": {
+          "id": 1008,
+          "name": "Decacorn Ecosystem"
+        },
+        "coverage": {
+          "complete": true,
+          "state": "complete",
+          "lastSyncedAt": "2026-11-20T11:30:00.000Z",
+          "policyVersion": "1.0.0"
+        },
+        "repositories": [
+          { "id": 601, "visibility": "public", "syncStatus": "synced", "lastSyncedAt": "2026-11-20T11:30:00.000Z" },
+          { "id": 602, "visibility": "public", "syncStatus": "synced", "lastSyncedAt": "2026-11-20T11:30:00.000Z" },
+          { "id": 603, "visibility": "public", "syncStatus": "synced", "lastSyncedAt": "2026-11-20T11:30:00.000Z" },
+          { "id": 604, "visibility": "public", "syncStatus": "synced", "lastSyncedAt": "2026-11-20T11:30:00.000Z" },
+          { "id": 605, "visibility": "public", "syncStatus": "synced", "lastSyncedAt": "2026-11-20T11:30:00.000Z" },
+          { "id": 606, "visibility": "public", "syncStatus": "synced", "lastSyncedAt": "2026-11-20T11:30:00.000Z" },
+          { "id": 607, "visibility": "public", "syncStatus": "synced", "lastSyncedAt": "2026-11-20T11:30:00.000Z" },
+          { "id": 608, "visibility": "public", "syncStatus": "synced", "lastSyncedAt": "2026-11-20T11:30:00.000Z" },
+          { "id": 609, "visibility": "public", "syncStatus": "synced", "lastSyncedAt": "2026-11-20T11:30:00.000Z" },
+          { "id": 610, "visibility": "public", "syncStatus": "synced", "lastSyncedAt": "2026-11-20T11:30:00.000Z" }
+        ],
+        "pagination": {
+          "page": 1,
+          "limit": 50,
+          "totalPeople": 2,
+          "totalPages": 1,
+          "snapshotId": "snap-2026-11-20-ten-01",
+          "nextCursor": null
+        },
+        "people": [
+          {
+            "githubId": 80801,
+            "handle": "ecosystem-general",
+            "communityCommitCount": 1500,
+            "eligible": true
+          },
+          {
+            "githubId": 80802,
+            "handle": "polyglot-contributor",
+            "communityCommitCount": 230,
+            "eligible": true
+          }
+        ]
+      }
+    }
+  ]
+}
