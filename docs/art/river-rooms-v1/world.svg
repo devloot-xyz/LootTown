@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 390" role="img" aria-labelledby="name desc">
+  <title id="name">River Rooms venue map</title>
+  <desc id="desc">Five fictional communities occupy the river banks. From the ferry bridge, follow the solid street past Three Dot Room to Gantry Hall. The other three rooms branch off this street.</desc>
+  <defs>
+    <pattern id="yards" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(-18)">
+      <path d="M0 0v16" stroke="#ddd7c5" stroke-width="3"/>
+    </pattern>
+  </defs>
+  <rect width="840" height="390" fill="#f6efda"/>
+  <path d="M0 124L248 53 470 77 625 14 840 30V0H0Zm0 192 151-62 89 68-26 68H0Zm571-80 190-93 79 20v227H546Z" fill="url(#yards)"/>
+  <path d="M-45 245C103 220 187 322 337 320S523 210 611 210s170 54 259 32" fill="none" stroke="#9cbcbf" stroke-width="71"/>
+  <path d="M-45 245C103 220 187 322 337 320S523 210 611 210s170 54 259 32" fill="none" stroke="#6e9899" stroke-width="1.8" stroke-dasharray="11 9"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M73 191 218 148 329 177 445 124 552 157 643 124 785 155M383 284l78-41 45-57M551 157l65 51 10 98 80 39M329 177l-67-76-63-12" stroke="#c1b6a0" stroke-width="10"/>
+    <path d="m146 342 45-86 51-49 87-30 116-53 71-44" stroke="#faf6e9" stroke-width="26"/>
+    <path d="m146 342 45-86 51-49 87-30 116-53 71-44" stroke="#78462e" stroke-width="9"/>
+    <path d="m165 289 17-35m-9 39 17-35" stroke="#162e37" stroke-width="3"/>
+  </g>
+  <g font-family="Arial,sans-serif" fill="#20383b" font-weight="bold" font-size="17">
+    <g transform="translate(325 167)">
+      <path d="m0-22 22 39h-44z" fill="#efb84e" stroke="#22383e" stroke-width="3"/>
+      <g fill="#22383e"><circle cy="-5" r="3.1"/><circle cx="-6" cy="8" r="3.1"/><circle cx="6" cy="8" r="3.1"/></g>
+    </g>
+    <text x="351" y="203">Three Dot Room</text>
+    <circle cx="521" cy="79" r="21" fill="#254942"/><circle cx="521" cy="79" r="12" fill="none" stroke="#fae9b8" stroke-width="5"/>
+    <text x="551" y="85">Gantry Hall</text>
+    <path d="m230 89 13-12 13 12v13h-26z" fill="#6d6456"/><text x="173" y="63">Lantern House</text>
+    <rect x="686" y="127" width="22" height="22" fill="#6d6456"/><path d="m691 142 10-10" stroke="#f6efda" stroke-width="3"/>
+    <text x="669" y="116">Pump Court</text>
+    <path d="m621 298 12 7v15l-12 7-12-7v-15z" fill="#6d6456"/><text x="645" y="320">Ferry Yard</text>
+  </g>
+  <g font-family="Arial,sans-serif" fill="#213b40">
+    <text x="32" y="37" font-size="22" font-weight="bold">River Rooms</text>
+    <text x="32" y="60" font-size="14">District wayfinding study</text>
+    <text x="51" y="347" font-size="15">Ferry bridge</text>
+    <text x="286" y="327" font-size="15" letter-spacing="3">CANAL</text>
+  </g>
+</svg>
