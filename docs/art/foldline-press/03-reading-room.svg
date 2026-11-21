@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="540" height="340" viewBox="0 0 540 340" role="img" aria-labelledby="title desc">
+  <title id="title">Foldline Press reading room</title>
+  <desc id="desc">An intimate voice and acoustic string set. A loop of printing paper hangs from the ceiling and the community mark is printed on the back wall. Five nearby listeners can reach the exit along the edge.</desc>
+  <defs>
+    <g id="slug">
+      <path d="M-18 -9h26l11 9-8 8H-14l-8-7Z" fill="#FCF4DA" stroke="#222C3C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M-11 -4h15l7 5H-13Z" fill="#222C3C" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M-9 7h17" fill="none" stroke="#222C3C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g id="guest">
+      <path d="M-5 -17Q-1 -20 3 -17L6 -7 4 -5 4 0H1l-1-6-2 6H-5l1-7-3-1Z" fill="#82B6A5" stroke="#222C3C" stroke-width="0.95" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="-1" cy="-21.2" r="3.2" fill="#222C3C"/>
+      <path d="M-4 -15l-3 6m10-6l4 4" fill="none" stroke="#222C3C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g id="maker">
+      <path d="M-5 -17Q-1 -20 3 -17L6 -7 4 -5 4 0H1l-1-6-2 6H-5l1-7-3-1Z" fill="#DB694B" stroke="#222C3C" stroke-width="0.95" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="-1" cy="-21.2" r="3.2" fill="#222C3C"/>
+      <path d="M-4 -16l-4 3-3-3m14 1l7-4" fill="none" stroke="#222C3C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g id="player">
+      <path d="M-5 -17Q-1 -20 3 -17L6 -7 4 -5 4 0H1l-1-6-2 6H-5l1-7-3-1Z" fill="#E7B957" stroke="#222C3C" stroke-width="0.95" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="-1" cy="-21.2" r="3.2" fill="#222C3C"/>
+      <path d="M-4 -15l6 4 6-5m-1 2 5-3" fill="none" stroke="#222C3C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M-1-11c-4 2-2 7 1 6l5-4-1-4Z" fill="#DB694B" stroke="#222C3C" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g id="reader">
+      <path d="M-5 -17Q-1 -20 3 -17L6 -7 4 -5 4 0H1l-1-6-2 6H-5l1-7-3-1Z" fill="#9EB9CC" stroke="#222C3C" stroke-width="0.95" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="-1" cy="-21.2" r="3.2" fill="#222C3C"/>
+      <path d="M-4-15l5 4 6-3" fill="none" stroke="#222C3C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g id="press">
+      <path d="M0 0l36-15 30 12-37 16Z" fill="#222C3C" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M0 -24l36-15v24L0 0Z" fill="#DB694B" stroke="#222C3C" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M36-39l30 12v24L36-15Z" fill="#6B4D64" stroke="#222C3C" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M-4-25l14-22 21 9 14-22 25 30-35 14Z" fill="#FCF4DA" stroke="#222C3C" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M10-47l16 18 5-9m14-22 12 29" fill="none" stroke="#E7B957" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M6-8l9-4v-10l-9 4Z M20-14l10-4v-10l-10 4Z" fill="#304E88" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M43-18l9 4v-12l-9-4Z" fill="#222C3C" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g id="roundhall">
+      <path d="M-3-5Q22 14 60-1v-31Q24-18-3-32Z" fill="#304E88" stroke="#222C3C" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M-4-31Q2-55 29-58 55-57 64-32 29-13-4-31Z" fill="#E7B957" stroke="#222C3C" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M3-32Q18-51 30-55M14-29q9-18 16-26m17 26q-3-18-16-25" fill="none" stroke="#222C3C" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M4-21q24 10 52 1v9Q30 0 4-11Z" fill="#82B6A5" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g id="greenhouse">
+      <path d="M-3-7 24-21l24 10-28 15Z" fill="#222C3C" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M-2-25 25-39l23 11-27 14Z" fill="#82B6A5" stroke="#222C3C" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M-2-25v17l23 10v-16Z" fill="#9EB9CC" stroke="#222C3C" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M21-14l27-14v16L21 2Z" fill="#304E88" stroke="#222C3C" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M3-27l22-12m-5 19 12-15" fill="none" stroke="#FCF4DA" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g id="tree">
+      <path d="M-1 0v-14" fill="none" stroke="#222C3C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M-7-9q-7-5-1-11-3-6 4-10 8-4 9 3 8 1 7 8 1 8-7 10Z" fill="#82B6A5" stroke="#222C3C" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M0-11l1-10m-1 7-4-3" fill="none" stroke="#222C3C" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <pattern id="hatch" width="5" height="5" patternUnits="userSpaceOnUse">
+      <path d="m-1 5 6-6m-1 7 2-2" stroke="#222C3C" stroke-width=".65" opacity=".4"/>
+    </pattern>
+  </defs>
+  <g id="reading-room">
+    <rect x="0" y="0" width="540" height="340" fill="#222C3C"/>
+    <path d="M0 28 142 85v146L0 296Z" fill="#6B4D64" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M142 85l280-20v177l-280-11Z" fill="#F5EBCD" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M422 65 540 18v269l-118-45Z" fill="#304E88" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M0 295l142-64 280 11 118 45v53H0Z" fill="#E7B957" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M0 21l127 52 312-19 101-46v18L420 79 143 98 0 40Z" fill="#DB694B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M145 92l-1 138" fill="none" stroke="#E7B957" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M171 92l-1 138" fill="none" stroke="#E7B957" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M197 92l-1 138" fill="none" stroke="#E7B957" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M223 92l-1 138" fill="none" stroke="#E7B957" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M249 92l-1 138" fill="none" stroke="#E7B957" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M275 92l-1 138" fill="none" stroke="#E7B957" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M301 92l-1 138" fill="none" stroke="#E7B957" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M327 92l-1 138" fill="none" stroke="#E7B957" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M353 92l-1 138" fill="none" stroke="#E7B957" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M379 92l-1 138" fill="none" stroke="#E7B957" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M405 92l-1 138" fill="none" stroke="#E7B957" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M122 220l215-13 70 28-220 22Z" fill="#FCF4DA" stroke="#222C3C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M187 257l220-22v8l-220 24Z" fill="#DB694B" stroke="#222C3C" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M123 220v9l64 38v-10Z" fill="#6B4D64" stroke="#222C3C" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M112 51q58 38 94 58t97-2 82-19l26-9v17q-30 4-64 28t-67 17-74-19-94-51Z" fill="#FCF4DA" stroke="#222C3C" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M135 71q65 40 104 51t85-12" fill="none" stroke="#DB694B" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round"/>
+    <use href="#slug" xlink:href="#slug" transform="translate(299 155) scale(1 1)"/>
+    <path d="M154 210v-42l13-3v45Z" fill="#304E88" stroke="#222C3C" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M185 221v-36l30-3v36Z" fill="#6B4D64" stroke="#222C3C" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    <use href="#player" xlink:href="#player" transform="translate(240 220) scale(2.1 2.1)"/>
+    <use href="#maker" xlink:href="#maker" transform="translate(283 213) scale(1.94 1.94)"/>
+    <path d="M292 212l1-47 9-4m-9 46-8 7m8-7 9 7" fill="none" stroke="#222C3C" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M21 171l76 23v49l-76-21Z" fill="#9EB9CC" stroke="#222C3C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M29 184l60 18m-60-7 60 18" fill="none" stroke="#304E88" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M453 199v-69l29-11v72Z" fill="#FCF4DA" stroke="#222C3C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M457 191v-54l21-6v56Z" fill="#222C3C" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <use href="#guest" xlink:href="#guest" transform="translate(119 274) scale(2.04 2.04)"/>
+    <use href="#reader" xlink:href="#reader" transform="translate(181 288) scale(2.15 2.15)"/>
+    <use href="#guest" xlink:href="#guest" transform="translate(327 271) scale(-1.85 1.85)"/>
+    <use href="#reader" xlink:href="#reader" transform="translate(365 282) scale(2 2)"/>
+    <use href="#maker" xlink:href="#maker" transform="translate(279 301) scale(-2.25 2.25)"/>
+    <path d="M32 339l84-58" fill="none" stroke="#DB694B" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M140 339l84-58" fill="none" stroke="#DB694B" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M248 339l84-58" fill="none" stroke="#DB694B" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M356 339l84-58" fill="none" stroke="#DB694B" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="18" y="322" fill="#222C3C" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" font-size="12">Reading room: voice and acoustic strings</text>
+  </g>
+</svg>

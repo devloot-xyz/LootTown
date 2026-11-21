@@ -1,0 +1,140 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="540" height="340" viewBox="0 0 540 340" role="img" aria-labelledby="title desc">
+  <title id="title">Foldline Press concert hall</title>
+  <desc id="desc">A four-piece band plays electric guitars, drums and vocals. Curved seating blocks face a letterpress stage. A pale central access lane stays visible through the crowd. The fixed poster mark returns above the stage.</desc>
+  <defs>
+    <g id="slug">
+      <path d="M-18 -9h26l11 9-8 8H-14l-8-7Z" fill="#FCF4DA" stroke="#222C3C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M-11 -4h15l7 5H-13Z" fill="#222C3C" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M-9 7h17" fill="none" stroke="#222C3C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g id="guest">
+      <path d="M-5 -17Q-1 -20 3 -17L6 -7 4 -5 4 0H1l-1-6-2 6H-5l1-7-3-1Z" fill="#82B6A5" stroke="#222C3C" stroke-width="0.95" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="-1" cy="-21.2" r="3.2" fill="#222C3C"/>
+      <path d="M-4 -15l-3 6m10-6l4 4" fill="none" stroke="#222C3C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g id="maker">
+      <path d="M-5 -17Q-1 -20 3 -17L6 -7 4 -5 4 0H1l-1-6-2 6H-5l1-7-3-1Z" fill="#DB694B" stroke="#222C3C" stroke-width="0.95" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="-1" cy="-21.2" r="3.2" fill="#222C3C"/>
+      <path d="M-4 -16l-4 3-3-3m14 1l7-4" fill="none" stroke="#222C3C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g id="player">
+      <path d="M-5 -17Q-1 -20 3 -17L6 -7 4 -5 4 0H1l-1-6-2 6H-5l1-7-3-1Z" fill="#E7B957" stroke="#222C3C" stroke-width="0.95" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="-1" cy="-21.2" r="3.2" fill="#222C3C"/>
+      <path d="M-4 -15l6 4 6-5m-1 2 5-3" fill="none" stroke="#222C3C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M-1-11c-4 2-2 7 1 6l5-4-1-4Z" fill="#DB694B" stroke="#222C3C" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g id="reader">
+      <path d="M-5 -17Q-1 -20 3 -17L6 -7 4 -5 4 0H1l-1-6-2 6H-5l1-7-3-1Z" fill="#9EB9CC" stroke="#222C3C" stroke-width="0.95" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="-1" cy="-21.2" r="3.2" fill="#222C3C"/>
+      <path d="M-4-15l5 4 6-3" fill="none" stroke="#222C3C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g id="press">
+      <path d="M0 0l36-15 30 12-37 16Z" fill="#222C3C" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M0 -24l36-15v24L0 0Z" fill="#DB694B" stroke="#222C3C" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M36-39l30 12v24L36-15Z" fill="#6B4D64" stroke="#222C3C" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M-4-25l14-22 21 9 14-22 25 30-35 14Z" fill="#FCF4DA" stroke="#222C3C" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M10-47l16 18 5-9m14-22 12 29" fill="none" stroke="#E7B957" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M6-8l9-4v-10l-9 4Z M20-14l10-4v-10l-10 4Z" fill="#304E88" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M43-18l9 4v-12l-9-4Z" fill="#222C3C" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g id="roundhall">
+      <path d="M-3-5Q22 14 60-1v-31Q24-18-3-32Z" fill="#304E88" stroke="#222C3C" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M-4-31Q2-55 29-58 55-57 64-32 29-13-4-31Z" fill="#E7B957" stroke="#222C3C" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M3-32Q18-51 30-55M14-29q9-18 16-26m17 26q-3-18-16-25" fill="none" stroke="#222C3C" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M4-21q24 10 52 1v9Q30 0 4-11Z" fill="#82B6A5" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g id="greenhouse">
+      <path d="M-3-7 24-21l24 10-28 15Z" fill="#222C3C" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M-2-25 25-39l23 11-27 14Z" fill="#82B6A5" stroke="#222C3C" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M-2-25v17l23 10v-16Z" fill="#9EB9CC" stroke="#222C3C" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M21-14l27-14v16L21 2Z" fill="#304E88" stroke="#222C3C" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M3-27l22-12m-5 19 12-15" fill="none" stroke="#FCF4DA" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g id="tree">
+      <path d="M-1 0v-14" fill="none" stroke="#222C3C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M-7-9q-7-5-1-11-3-6 4-10 8-4 9 3 8 1 7 8 1 8-7 10Z" fill="#82B6A5" stroke="#222C3C" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M0-11l1-10m-1 7-4-3" fill="none" stroke="#222C3C" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <pattern id="hatch" width="5" height="5" patternUnits="userSpaceOnUse">
+      <path d="m-1 5 6-6m-1 7 2-2" stroke="#222C3C" stroke-width=".65" opacity=".4"/>
+    </pattern>
+  </defs>
+  <g id="press-hall">
+    <rect x="0" y="0" width="540" height="340" fill="#222C3C"/>
+    <path d="M0 20 118 65v124L0 239Z" fill="#304E88" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M420 66 540 20v217l-120-51Z" fill="#304E88" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M0 235l118-46 305-4 117 46v109H0Z" fill="#6B4D64" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M-145 0q180 111 330 24" fill="none" stroke="#82B6A5" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M-105 0q180 111 330 24" fill="none" stroke="#82B6A5" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M-65 0q180 111 330 24" fill="none" stroke="#82B6A5" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M-25 0q180 111 330 24" fill="none" stroke="#82B6A5" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M15 0q180 111 330 24" fill="none" stroke="#82B6A5" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M55 0q180 111 330 24" fill="none" stroke="#82B6A5" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M126 53q119-26 288 6v126H126Z" fill="#6B4D64" stroke="#304E88" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M133 147q46-36 87-49t98 7 83-17v84H133Z" fill="#DB694B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M131 138q60-49 101-54t84 8 88-20" fill="none" stroke="#FCF4DA" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M137 74l53 0 18 71-48 19Z" fill="#E7B957" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" opacity=".55"/>
+    <path d="M385 71h-32l-31 82 42 4Z" fill="#82B6A5" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" opacity=".65"/>
+    <use href="#slug" xlink:href="#slug" transform="translate(270 89) scale(1.05 1.05)"/>
+    <path d="M104 183l312-3 56 25-317 22Z" fill="#E7B957" stroke="#222C3C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M155 227l317-22v11l-317 23Z" fill="#DB694B" stroke="#222C3C" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M104 183v11l51 45v-12Z" fill="#304E88" stroke="#222C3C" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <use href="#player" xlink:href="#player" transform="translate(190 184) scale(2.18 2.18)"/>
+    <use href="#maker" xlink:href="#maker" transform="translate(272 199) scale(2.3 2.3)"/>
+    <use href="#player" xlink:href="#player" transform="translate(358 178) scale(-2.1 2.1)"/>
+    <use href="#reader" xlink:href="#reader" transform="translate(304 164) scale(1.55 1.55)"/>
+    <circle cx="307" cy="166" r="11" fill="#304E88"/>
+    <circle cx="307" cy="166" r="8" fill="#FCF4DA"/>
+    <circle cx="294" cy="152" r="5.1" fill="#DB694B"/>
+    <path d="M284 154l9-1m27-1 12 2m-8 1v15" fill="none" stroke="#E7B957" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M270 196v-47l7-2m-7 45-6 5m6-5 6 4" fill="none" stroke="#222C3C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M0 245q110-57 198-32m149-4q118-34 196 17" fill="none" stroke="#9EB9CC" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M0 268q110-57 198-32m149-4q118-34 196 17" fill="none" stroke="#9EB9CC" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M0 291q110-57 198-32m149-4q118-34 196 17" fill="none" stroke="#9EB9CC" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M0 314q110-57 198-32m149-4q118-34 196 17" fill="none" stroke="#9EB9CC" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <use href="#maker" xlink:href="#maker" transform="translate(22 249) scale(-1.05 1.05)"/>
+    <use href="#guest" xlink:href="#guest" transform="translate(45 247) scale(1.05 1.05)"/>
+    <use href="#guest" xlink:href="#guest" transform="translate(68 245) scale(-1.05 1.05)"/>
+    <use href="#maker" xlink:href="#maker" transform="translate(91 243) scale(1.05 1.05)"/>
+    <use href="#guest" xlink:href="#guest" transform="translate(114 241) scale(-1.05 1.05)"/>
+    <use href="#guest" xlink:href="#guest" transform="translate(137 239) scale(1.05 1.05)"/>
+    <use href="#maker" xlink:href="#maker" transform="translate(160 237) scale(-1.05 1.05)"/>
+    <use href="#guest" xlink:href="#guest" transform="translate(29 274) scale(-1.19 1.19)"/>
+    <use href="#guest" xlink:href="#guest" transform="translate(52 272) scale(1.19 1.19)"/>
+    <use href="#maker" xlink:href="#maker" transform="translate(75 270) scale(-1.19 1.19)"/>
+    <use href="#guest" xlink:href="#guest" transform="translate(98 268) scale(1.19 1.19)"/>
+    <use href="#guest" xlink:href="#guest" transform="translate(121 266) scale(-1.19 1.19)"/>
+    <use href="#maker" xlink:href="#maker" transform="translate(144 264) scale(1.19 1.19)"/>
+    <use href="#guest" xlink:href="#guest" transform="translate(167 262) scale(-1.19 1.19)"/>
+    <use href="#guest" xlink:href="#guest" transform="translate(22 299) scale(-1.33 1.33)"/>
+    <use href="#maker" xlink:href="#maker" transform="translate(45 297) scale(1.33 1.33)"/>
+    <use href="#guest" xlink:href="#guest" transform="translate(68 295) scale(-1.33 1.33)"/>
+    <use href="#guest" xlink:href="#guest" transform="translate(91 293) scale(1.33 1.33)"/>
+    <use href="#maker" xlink:href="#maker" transform="translate(114 291) scale(-1.33 1.33)"/>
+    <use href="#guest" xlink:href="#guest" transform="translate(137 289) scale(1.33 1.33)"/>
+    <use href="#guest" xlink:href="#guest" transform="translate(160 287) scale(-1.33 1.33)"/>
+    <use href="#guest" xlink:href="#guest" transform="translate(388 234) scale(-1.05 1.05)"/>
+    <use href="#reader" xlink:href="#reader" transform="translate(412 236) scale(1.05 1.05)"/>
+    <use href="#reader" xlink:href="#reader" transform="translate(436 238) scale(1.05 1.05)"/>
+    <use href="#reader" xlink:href="#reader" transform="translate(460 240) scale(-1.05 1.05)"/>
+    <use href="#guest" xlink:href="#guest" transform="translate(484 242) scale(1.05 1.05)"/>
+    <use href="#reader" xlink:href="#reader" transform="translate(508 244) scale(1.05 1.05)"/>
+    <use href="#reader" xlink:href="#reader" transform="translate(396 261) scale(-1.19 1.19)"/>
+    <use href="#reader" xlink:href="#reader" transform="translate(420 263) scale(1.19 1.19)"/>
+    <use href="#reader" xlink:href="#reader" transform="translate(444 265) scale(1.19 1.19)"/>
+    <use href="#guest" xlink:href="#guest" transform="translate(468 267) scale(-1.19 1.19)"/>
+    <use href="#reader" xlink:href="#reader" transform="translate(492 269) scale(1.19 1.19)"/>
+    <use href="#reader" xlink:href="#reader" transform="translate(516 271) scale(1.19 1.19)"/>
+    <use href="#reader" xlink:href="#reader" transform="translate(388 288) scale(-1.33 1.33)"/>
+    <use href="#reader" xlink:href="#reader" transform="translate(412 290) scale(1.33 1.33)"/>
+    <use href="#guest" xlink:href="#guest" transform="translate(436 292) scale(1.33 1.33)"/>
+    <use href="#reader" xlink:href="#reader" transform="translate(460 294) scale(-1.33 1.33)"/>
+    <use href="#reader" xlink:href="#reader" transform="translate(484 296) scale(1.33 1.33)"/>
+    <use href="#reader" xlink:href="#reader" transform="translate(508 298) scale(1.33 1.33)"/>
+    <path d="M194 339l53-115 25-2-51 117Z" fill="#F5EBCD" stroke="#222C3C" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M204 339l53-114" fill="none" stroke="#DB694B" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 8"/>
+    <path d="M17 12h156v23H17Z" fill="#222C3C" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="24" y="28" fill="#FCF4DA" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" font-size="13">Press hall · live rock show</text>
+  </g>
+</svg>

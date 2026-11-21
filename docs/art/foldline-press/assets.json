@@ -1,0 +1,117 @@
+{
+  "version": "0.1",
+  "concept": "Foldline Press",
+  "author": "Prepared with OpenAI Codex for zitihc",
+  "license": "MIT, under the repository LICENSE when contributed",
+  "source": "Original vector paths and scene arrangements created for LootTown issue 2. No third-party art, fonts or code embedded. System sans-serif names are requested by SVG text.",
+  "method": "AI-assisted vector authoring with explicit paths and repeated original SVG symbols. Small and large settings are alternative configurations of one community. No image generator or borrowed source image used.",
+  "attribution": "Retain the repository MIT copyright and permission notice.",
+  "modifications": "Original draft. The contact sheet is composed from the six SVG drawings, with no new external inputs.",
+  "assets": [
+    {
+      "id": "district",
+      "file": "01-district.svg",
+      "version": "0.1",
+      "type": "editable static SVG",
+      "dimensions": [
+        540,
+        340
+      ],
+      "source": "original paths in this file",
+      "rig": null,
+      "clips": [],
+      "externalDependencies": []
+    },
+    {
+      "id": "entrance",
+      "file": "02-entrance.svg",
+      "version": "0.1",
+      "type": "editable static SVG",
+      "dimensions": [
+        540,
+        340
+      ],
+      "source": "original paths in this file",
+      "rig": null,
+      "clips": [],
+      "externalDependencies": []
+    },
+    {
+      "id": "reading_room",
+      "file": "03-reading-room.svg",
+      "version": "0.1",
+      "type": "editable static SVG",
+      "dimensions": [
+        540,
+        340
+      ],
+      "source": "original paths in this file",
+      "rig": null,
+      "clips": [],
+      "externalDependencies": []
+    },
+    {
+      "id": "press_hall",
+      "file": "04-press-hall.svg",
+      "version": "0.1",
+      "type": "editable static SVG",
+      "dimensions": [
+        540,
+        340
+      ],
+      "source": "original paths in this file",
+      "rig": null,
+      "clips": [],
+      "externalDependencies": []
+    },
+    {
+      "id": "people",
+      "file": "05-people.svg",
+      "version": "0.1",
+      "type": "editable static SVG",
+      "dimensions": [
+        540,
+        340
+      ],
+      "source": "original paths in this file",
+      "rig": null,
+      "clips": [],
+      "externalDependencies": []
+    },
+    {
+      "id": "phone",
+      "file": "06-phone.svg",
+      "version": "0.1",
+      "type": "editable static SVG",
+      "dimensions": [
+        360,
+        568
+      ],
+      "source": "original paths in this file",
+      "rig": null,
+      "clips": [],
+      "externalDependencies": []
+    },
+    {
+      "id": "sheet",
+      "file": "concept-sheet.png",
+      "version": "0.1",
+      "type": "raster contact sheet",
+      "dimensions": [
+        1128,
+        1084
+      ],
+      "source": [
+        "01-district.svg",
+        "02-entrance.svg",
+        "03-reading-room.svg",
+        "04-press-hall.svg",
+        "05-people.svg",
+        "06-phone.svg"
+      ],
+      "rig": null,
+      "clips": [],
+      "externalDependencies": []
+    }
+  ]
+}
