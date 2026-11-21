@@ -6,7 +6,7 @@ The React 18 / React Three Fiber / Vite foundation, Docker path, CI, proposed da
 
 ## Design and data foundation
 
-1. [#2 Define the world, venue, avatar, and show art direction](https://github.com/devloot-xyz/LootTown/issues/2)
+1. [#2 Define the world, venue, avatar, and show art direction](https://github.com/devloot-xyz/LootTown/issues/2). [Foldline Press concept for review](art/foldline-press/README.md).
 2. [#3 Specify contributor identity, commit attribution, and coverage policy](https://github.com/devloot-xyz/LootTown/issues/3)
 3. [#4 Deliver a versioned public community venue projection upstream](https://github.com/devloot-xyz/LootTown/issues/4) — after #3.
 4. [#5 Read and validate real DevLoot venue data in LootTown](https://github.com/devloot-xyz/LootTown/issues/5) — after #4.
