@@ -1,0 +1,188 @@
+{
+  "fixtureVersion": 1,
+  "policyVersion": "community-attribution-v1-proposal",
+  "synthetic": true,
+  "cases": [
+    {
+      "name": "complete-overlap",
+      "communityId": 7001,
+      "repositories": [
+        { "id": 21, "visibility": "public", "scan": "complete" },
+        { "id": 22, "visibility": "public", "scan": "complete" }
+      ],
+      "observations": [
+        { "repositoryId": 21, "sha": "sha-fixture-001", "authors": [{ "githubId": 91001, "kind": "user" }] },
+        { "repositoryId": 22, "sha": "sha-fixture-001", "authors": [{ "githubId": 91001, "kind": "user" }] }
+      ],
+      "expected": {
+        "coverage": "complete",
+        "people": [{ "githubId": 91001, "eligible": true, "communityCommitCount": 1 }],
+        "uniqueCommunityShas": 1
+      }
+    },
+    {
+      "name": "complete-coauthor",
+      "communityId": 7001,
+      "repositories": [{ "id": 21, "visibility": "public", "scan": "complete" }],
+      "observations": [
+        {
+          "repositoryId": 21,
+          "sha": "sha-fixture-002",
+          "authors": [
+            { "githubId": 91001, "kind": "user", "source": "provider-author" },
+            { "githubId": 91002, "kind": "user", "source": "provider-resolved-coauthor" }
+          ]
+        }
+      ],
+      "expected": {
+        "coverage": "complete",
+        "people": [
+          { "githubId": 91001, "eligible": true, "communityCommitCount": 1 },
+          { "githubId": 91002, "eligible": true, "communityCommitCount": 1 }
+        ],
+        "uniqueCommunityShas": 1,
+        "sumOfPersonCommitCounts": 2
+      }
+    },
+    {
+      "name": "incomplete-history-and-bot",
+      "communityId": 7002,
+      "repositories": [
+        { "id": 31, "visibility": "public", "scan": "partial" },
+        { "id": 32, "visibility": "public", "scan": "complete" }
+      ],
+      "observations": [
+        { "repositoryId": 31, "sha": "sha-fixture-003", "authors": [{ "githubId": 92001, "kind": "user" }] },
+        { "repositoryId": 32, "sha": "sha-fixture-004", "authors": [{ "githubId": 92002, "kind": "bot" }] },
+        { "repositoryId": 32, "sha": "sha-fixture-005", "authors": [{ "githubId": null, "kind": "unlinked" }] }
+      ],
+      "expected": {
+        "coverage": "partial",
+        "people": [{ "githubId": 92001, "eligible": true, "communityCommitCount": null }],
+        "excluded": [{ "githubId": 92002, "reason": "bot" }, { "githubId": null, "reason": "unlinked" }]
+      }
+    },
+    {
+      "name": "unresolved-coauthor",
+      "communityId": 7008,
+      "repositories": [{ "id": 101, "visibility": "public", "scan": "complete" }],
+      "observations": [
+        {
+          "repositoryId": 101,
+          "sha": "sha-fixture-009",
+          "authors": [
+            { "githubId": 98001, "kind": "user", "source": "provider-author" },
+            { "githubId": null, "kind": "unresolved-coauthor", "source": "provider-authors-connection" }
+          ]
+        }
+      ],
+      "expected": {
+        "historyCoverage": "complete",
+        "attributionStatus": "unresolved",
+        "people": [{ "githubId": 98001, "eligible": true, "communityCommitCount": 1 }],
+        "unresolvedAttributionCount": 1,
+        "note": "The unresolved co-author is not guessed and does not hide the resolved author's count."
+      }
+    },
+    {
+      "name": "unlinked-repository",
+      "communityId": 7009,
+      "repositories": [
+        { "id": 111, "visibility": "public", "link": "active", "scan": "complete" },
+        { "id": 112, "visibility": "public", "link": "unlinked", "scan": "previously-complete" }
+      ],
+      "observations": [
+        { "repositoryId": 111, "sha": "sha-fixture-010", "authors": [{ "githubId": 99001, "kind": "user" }] },
+        { "repositoryId": 112, "sha": "sha-fixture-011", "authors": [{ "githubId": 99001, "kind": "user" }] }
+      ],
+      "expected": {
+        "coverage": "complete",
+        "activeRepositoryIds": [111],
+        "people": [{ "githubId": 99001, "eligible": true, "communityCommitCount": 1, "earnedAvatarTierPreserved": true }],
+        "note": "The active total excludes sha-fixture-011 from the unlinked repository; the person remains represented and keeps an already-earned tier."
+      }
+    },
+    {
+      "name": "empty-complete",
+      "communityId": 7003,
+      "repositories": [{ "id": 41, "visibility": "public", "scan": "complete" }],
+      "observations": [],
+      "expected": {
+        "coverage": "complete",
+        "people": [],
+        "eligiblePeopleCount": 0,
+        "note": "Every repository in the snapshot was successfully scanned; this is a known empty community."
+      }
+    },
+    {
+      "name": "empty-without-baseline-is-not-zero",
+      "communityId": 7004,
+      "repositories": [{ "id": 51, "visibility": "public", "scan": "not-started" }],
+      "observations": [],
+      "expected": {
+        "coverage": "partial",
+        "people": [],
+        "eligiblePeopleCount": null,
+        "note": "No successful history scan is not evidence of zero contributors."
+      }
+    },
+    {
+      "name": "stale-snapshot",
+      "communityId": 7005,
+      "repositories": [{ "id": 61, "visibility": "public", "scan": "last-complete-snapshot-older-than-48h" }],
+      "observations": [
+        { "repositoryId": 61, "sha": "sha-fixture-006", "authors": [{ "githubId": 95001, "kind": "user" }] }
+      ],
+      "expected": {
+        "coverage": "stale",
+        "people": [{ "githubId": 95001, "eligible": true, "communityCommitCount": null }],
+        "lastSyncedAt": "2026-01-01T00:00:00.000Z"
+      }
+    },
+    {
+      "name": "ten-repositories",
+      "communityId": 7006,
+      "repositories": [
+        { "id": 71, "visibility": "public", "scan": "complete" },
+        { "id": 72, "visibility": "public", "scan": "complete" },
+        { "id": 73, "visibility": "public", "scan": "complete" },
+        { "id": 74, "visibility": "public", "scan": "complete" },
+        { "id": 75, "visibility": "public", "scan": "complete" },
+        { "id": 76, "visibility": "public", "scan": "complete" },
+        { "id": 77, "visibility": "public", "scan": "complete" },
+        { "id": 78, "visibility": "public", "scan": "complete" },
+        { "id": 79, "visibility": "public", "scan": "complete" },
+        { "id": 80, "visibility": "public", "scan": "complete" }
+      ],
+      "observations": [
+        { "repositoryId": 71, "sha": "sha-fixture-007", "authors": [{ "githubId": 96001, "kind": "user" }] },
+        { "repositoryId": 80, "sha": "sha-fixture-007", "authors": [{ "githubId": 96001, "kind": "user" }] }
+      ],
+      "expected": {
+        "coverage": "complete",
+        "people": [{ "githubId": 96001, "eligible": true, "communityCommitCount": 1 }],
+        "uniqueCommunityShas": 1,
+        "repositoryCount": 10
+      }
+    },
+    {
+      "name": "public-fork-and-mirror-overlap",
+      "communityId": 7007,
+      "repositories": [
+        { "id": 91, "visibility": "public", "kind": "source", "scan": "complete" },
+        { "id": 92, "visibility": "public", "kind": "fork", "scan": "complete" },
+        { "id": 93, "visibility": "public", "kind": "mirror", "scan": "complete" }
+      ],
+      "observations": [
+        { "repositoryId": 91, "sha": "sha-fixture-008", "authors": [{ "githubId": 97001, "kind": "user" }] },
+        { "repositoryId": 92, "sha": "sha-fixture-008", "authors": [{ "githubId": 97001, "kind": "user" }] },
+        { "repositoryId": 93, "sha": "sha-fixture-008", "authors": [{ "githubId": 97001, "kind": "user" }] }
+      ],
+      "expected": {
+        "coverage": "complete",
+        "people": [{ "githubId": 97001, "eligible": true, "communityCommitCount": 1 }],
+        "uniqueCommunityShas": 1
+      }
+    }
+  ]
+}

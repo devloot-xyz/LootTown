@@ -19,6 +19,8 @@ The `Project` ↔ `Repository` link is many-to-many (`server/prisma/schema.prism
 
 Existing mutation endpoints such as `POST /api/community/projects`, `POST /api/community/projects/:id/repos`, and `POST /api/bounties` require their own actor/payment rules and are **outside LootTown**. The community routes use a community cookie guard; bounty claim uses bearer wallet authentication (`community-publication.controller.ts:91-131`, `bounties.controller.ts:165-225`). The product's GitHub authorization inventory is `docs/features/github-authorization.md` in DevLoot. Its L0–L5 levels are proposed independent capability bundles, not evidence of live grants. LootTown requires no GitHub token for the offline base and must not silently expand permissions.
 
+The proposed identity, SHA attribution, repository-set, coverage, retention, and public-field rules are recorded in [community contributor and commit attribution policy v1](contributor-attribution-policy.md). That policy is awaiting DevLoot maintainer review and provider feasibility confirmation. Its synthetic vectors are in [the policy fixture](fixtures/contributor-attribution-v1.json); they are not real API responses. The source mapping above is based on the pinned inspection noted at the top of this document and must be checked against DevLoot upstream before implementation.
+
 ### Synthetic examples of current shape
 
 These are invented records demonstrating fields, **not fetched DevLoot data**:
