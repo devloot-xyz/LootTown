@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="600" viewBox="0 0 1120 600" role="img" aria-labelledby="title desc">
+  <title id="title">Kiln Yard character construction and pose sheet</title>
+  <desc id="desc">Five costumes on one body, beside a 2.25 metre doorway. Below, a standing guitarist, a seated audience member and a cheering audience member have different silhouettes.</desc>
+  <defs>
+    <pattern id="paper" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M0 0H24M0 0V24" fill="none" stroke="#DED5C1" stroke-width="1"/>
+    </pattern>
+    <g id="head">
+      <path fill="#995C43" d="M-11 8Q-15-1-10-12Q-3-23 9-16Q17-12 13-2L14 3L9 4L6 12Z"/>
+      <path fill="#282A38" d="M-12 0Q-17-16-7-20Q8-27 15-15L16-9L5-10L-2-4L-4 2L-8 1L-9 6Z"/>
+    </g>
+    <g id="body">
+      <path fill="#323649" d="M-16 75H15L17 129L10 155H1L3 121L-2 96L-6 123L-12 155H-22L-18 116Z"/>
+      <path fill="#202537" d="M-22 152H-11L-11 161H-27Q-30 156-22 152M0 152H11L17 158L16 161H0Z"/>
+      <path fill="#A65339" d="M-15 17L-7 11L5 12L16 18L21 73L13 83H-20L-17 45L-24 70L-30 67L-24 40Z"/>
+      <path fill="#E9C897" d="M-28 65L-23 68L-24 77L-29 76L-31 70Z"/>
+      <path fill="#733E33" d="M12 24L19 19L30 47L29 66L23 66L22 49Z"/>
+      <path fill="#995C43" d="M23 64H30L30 72L26 76L23 73Z"/>
+      <path fill="#80D7CD" d="M-7 11L5 12L9 16L2 22L-6 17Z"/>
+      <path fill="none" stroke="#F3D5A1" stroke-width="1.8" d="M-2 25V74M-13 48H-5M4 48H12"/>
+      <use href="#head"/>
+    </g>
+    <g id="bag">
+      <path d="M13 20L-14 66" stroke="#25293B" stroke-width="5"/>
+      <path fill="#E0A65C" stroke="#482E2A" stroke-width="2" d="M-23 59L-7 62L-10 81L-28 77Z"/>
+    </g>
+    <g id="coat">
+      <path fill="#38515D" d="M-15 20L-6 24L-6 72L-16 113L-27 101L-18 62ZM8 22L15 19L19 65L26 101L13 110L4 76Z"/>
+      <path fill="none" stroke="#80D7CD" stroke-width="2" d="M-23 99L-16 104L-11 83M11 99L18 96"/>
+    </g>
+    <g id="wrap"><path fill="#D7AC70" d="M-16 17L4 11L16 17L24 39L11 34L-1 25L-19 33Z"/></g>
+  </defs>
+  <rect width="1120" height="600" fill="#F7EFDE"/>
+  <rect x="25" y="65" width="1070" height="243" fill="url(#paper)"/>
+  <g font-family="Arial, sans-serif" fill="#202537">
+    <text x="38" y="45" font-size="25" font-weight="bold">KILN YARD</text>
+    <text x="220" y="45" font-size="18">Wardrobe and movement study</text>
+    <text x="1080" y="44" text-anchor="end" font-size="15">v1.0</text>
+  </g>
+  <path d="M38 307H1082" stroke="#5E574E" stroke-width="2"/>
+  <g transform="translate(62,82)">
+    <path fill="#A65339" d="M0 225V3H144V225H127V19H17V225Z"/>
+    <path fill="#31394A" d="M17 225V19H127V225Z"/>
+    <path fill="#7FBAB2" d="M22 225V24H34V225Z"/>
+    <path fill="#F7EFDE" d="M45 30H100V35H45Z"/>
+    <circle cx="72" cy="78" r="22" fill="#80D7CD"/>
+    <path d="M59 81L76 64M67 90L84 73" stroke="#233740" stroke-width="4"/>
+  </g>
+  <g transform="translate(312,169) scale(.855)"><use href="#body"/></g>
+  <g transform="translate(474,169) scale(.855)"><use href="#body"/><use href="#bag"/></g>
+  <g transform="translate(635,169) scale(.855)"><use href="#body"/><use href="#coat"/><use href="#bag"/></g>
+  <g transform="translate(798,169) scale(.855)"><use href="#body"/><use href="#coat"/><use href="#bag"/><use href="#wrap"/></g>
+  <g transform="translate(961,169) scale(.855)"><use href="#body"/><use href="#coat"/><use href="#wrap"/>
+    <path fill="#564051" d="M-10 28L7 29L10 60L16 121L-16 118L-9 65Z"/>
+    <path d="M-12 109L12 112M-13 115L13 118" stroke="#E4D1A5" stroke-width="2"/>
+    <g fill="#80D7CD"><circle cx="-8" cy="30" r="3.5"/><circle cx="5" cy="31" r="3.5"/></g>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="15" fill="#202537" text-anchor="middle">
+    <text x="133" y="335">2.25 m clear height</text><text x="312" y="335">1–9 · Base</text>
+    <text x="474" y="335">10–49 · Satchel</text><text x="635" y="335">50–199 · Split hem</text>
+    <text x="798" y="335">200–999 · Wrap</text><text x="961" y="335">1000+ · Double clasp</text>
+  </g>
+  <rect x="25" y="358" width="1070" height="215" rx="4" fill="#283042"/>
+  <g fill="#F7EFDE" font-family="Arial, sans-serif">
+    <text x="45" y="394" font-size="21" font-weight="bold">Role silhouettes</text>
+    <text x="45" y="421" font-size="15">Read the pose at the</text>
+    <text x="45" y="441" font-size="15">back of the room.</text>
+  </g>
+  <g transform="translate(361,399) scale(.8)">
+    <use href="#body"/><path d="M-16 19L21 73" fill="none" stroke="#ECD69F" stroke-width="4"/>
+    <path d="M-4 66Q-23 69-18 88Q-12 104 4 96Q14 93 13 80L46 48L42 44L8 70Q5 61-4 66Z" fill="#80D7CD"/>
+    <circle cx="-1" cy="80" r="5" fill="#283042"/>
+    <path d="M-22 45L-17 63L-2 70M20 49L26 55L41 47" fill="none" stroke="#B8724F" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(595,424) scale(.8)">
+    <path d="M-24 75A32 32 0 1 0 40 75A32 32 0 1 0-24 75M40 91L51 91L50 101" fill="none" stroke="#80D7CD" stroke-width="5"/>
+    <path d="M-16 27L-8 65L25 65L38 91H53" fill="none" stroke="#E4D1A5" stroke-width="5"/>
+    <path d="M-7 9Q7 3 14 16L13 45L33 51L38 81L28 84L20 61L-8 60L-16 38Z" fill="#B86849"/>
+    <path d="M6 20L18 39H35" fill="none" stroke="#DBA77E" stroke-width="6" stroke-linecap="round"/>
+    <use href="#head"/>
+  </g>
+  <g transform="translate(894,408) scale(.73)">
+    <path d="M-16 14L-38 1L-50-20M12 16L31-5L37-26" stroke="#CF8663" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M-16 10L12 11L20 69L-18 72Z" fill="#80D7CD"/>
+    <path d="M-8 70L-13 118L-25 141M9 70L19 108L14 140" fill="none" stroke="#E4D1A5" stroke-width="10" stroke-linecap="round"/>
+    <use href="#head"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#F7EFDE" font-size="16" text-anchor="middle">
+    <text x="361" y="553">Performer · guitar diagonal</text><text x="601" y="553">Listener · seated profile</text><text x="894" y="553">Audience · raised arms</text>
+  </g>
+</svg>

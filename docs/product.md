@@ -18,6 +18,8 @@ Body variation stays around 10%; most progression is clothing and accessories. I
 
 ## Proposed and unresolved
 
+The [Kiln Yard art-direction proposal](art/kiln-yard-v1/README.md) shows how a community entrance, its show and its people could read at different scales. Its venue cutoffs and visual treatment await maintainer review.
+
 The world can include houses, plazas, halls, warehouses, and larger concert spaces. Contributor-count cutoffs, the zero-contributor presentation, and the visual scale of each venue require an approved art and product specification. No venue cutoff is implemented in this scaffold. Venue count is distinct from avatar commit count.
 
 Eligibility and coverage require a backend policy: identify bots, unlinked authors, deleted/renamed GitHub accounts, forks, mirrored commits, coauthors, repositories with missing or partial sync, and duplicate commit SHAs across linked repositories. A public projection must declare its time window, inclusion rule, source coverage, freshness, and whether counts are known. Do not infer a definitive zero from an empty page or an unavailable provider. Stable GitHub IDs identify accounts; a human uniqueness guarantee across accounts is not available.
