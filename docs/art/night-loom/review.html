@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Night Loom · LootTown art study</title>
+<style>
+  :root { color: #191a2c; background: #f6f0de; font-family: "Segoe UI", Arial, sans-serif; }
+  * { box-sizing: border-box; }
+  body { margin: 0; }
+  main { max-width: 1380px; margin: auto; padding: 28px clamp(18px, 5vw, 76px) 54px; }
+  a { color: inherit; text-underline-offset: .21em; }
+  a:focus-visible { outline: 3px solid #253c35; outline-offset: 3px; box-shadow: 0 0 0 6px #9fe0bf; }
+  header { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; border-bottom: 1px solid #a49d95; padding-bottom: 12px; }
+  header p { margin: 0; font-size: .88rem; }
+  header b { text-transform: uppercase; letter-spacing: .12em; }
+  header a { font-size: .875rem; }
+  h1, h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; }
+  h1 { font-size: clamp(3.5rem, 9vw, 8.5rem); letter-spacing: -.075em; line-height: .96; margin: .26em 0 .22em; }
+  .lead { display: flex; align-items: center; gap: clamp(16px, 5vw, 86px); }
+  .lead p { max-width: 28ch; line-height: 1.45; color: #484451; font-size: 1.05rem; }
+  nav { display: flex; flex-wrap: wrap; border-top: 1px solid #a49d95; gap: 0 14px; padding: .35rem 0 .6rem; }
+  nav a { text-decoration: none; min-height: 44px; padding: 0 10px; display: inline-flex; align-items: center; border-bottom: 3px solid transparent; font-size: .96rem; }
+  nav a:hover { background: #eae2cf; }
+  nav a[aria-current="page"] { border-color: #b94735; color: #702c23; font-weight: 700; }
+  figure { margin: 0 0 24px; display: grid; grid-template-columns: minmax(0, 3.2fr) minmax(230px, 1fr); background: #191a2c; color: #f6f0de; }
+  figure[hidden] { display: none; }
+  figure > img { width: 100%; height: auto; display: block; align-self: center; }
+  figcaption { padding: clamp(20px, 2.8vw, 43px); align-self: end; }
+  figcaption small { color: #9fe0bf; text-transform: uppercase; font-size: .76rem; letter-spacing: .09em; }
+  h2 { font-size: clamp(2rem, 3.2vw, 3.4rem); letter-spacing: -.052em; line-height: 1.04; margin: .42em 0; }
+  figcaption p { color: #e2dddf; line-height: 1.54; max-width: 42ch; margin: .7em 0 1.2em; }
+  figcaption a { display: inline-flex; min-height: 44px; align-items: center; color: #9fe0bf; }
+  figcaption a:focus-visible { outline-color: #f6f0de; box-shadow: none; }
+  footer { color: #524c50; font-size: .86rem; }
+  @media (max-width: 780px) {
+    main { padding: 18px 14px 35px; }
+    .lead { display: block; }
+    .lead p { max-width: 42ch; margin: 0 0 1.15rem; }
+    header p { font-size: .77rem; }
+    nav { gap: 0 5px; }
+    nav a { font-size: .89rem; padding: 0 9px; }
+    figure { grid-template-columns: 1fr; }
+    figcaption { padding: 18px 20px 12px; }
+    h2 { margin: .21em 0; }
+    figcaption p { margin: .65em 0 .25em; }
+  }
+  @media print {
+    main { padding: 0; }
+    header a, nav, figcaption a, footer { display: none; }
+    figure, figure[hidden] { display: block; break-inside: avoid; background: white; color: black; margin-top: 1em; }
+    figure img { max-height: 13cm; object-fit: contain; }
+    figcaption p, figcaption small { color: black; }
+  }
+</style>
+<main>
+ <header><p><b>LootTown</b> &nbsp; / &nbsp; Art direction v1.0</p><a href="README.md">Design brief</a></header>
+ <div class="lead"><h1>Night Loom</h1><p>A community keeps its flag, from its first listening booth to its largest stage.</p></div>
+ <nav aria-label="Concept plates">
+  <a href="#street">Street</a><a href="#booth">Booth</a><a href="#hall">Hall</a><a href="#people">Wardrobe</a><a href="#plan">Block plan</a>
+ </nav>
+ <div id="plates">
+  <figure id="street"><img src="street.jpg" width="1536" height="1024" alt="A curving night street links a booth with a red swallowtail flag and a distant concert house with a square green badge.">
+   <figcaption><small>Shared street</small><h2 tabindex="-1">Find the red flag</h2><p>Reed House sits on the bend. The white bar and V-cut hem will appear again inside. The green square farther up the lane belongs to a different community.</p><a href="#booth">Enter Reed House →</a></figcaption></figure>
+  <figure id="booth"><img src="booth.jpg" width="1536" height="1024" alt="Listeners gather close to a clarinet player under a low cloth canopy, with the red community flag beside the player.">
+   <figcaption><small>Reed House · Listening booth</small><h2 tabindex="-1">One room, one reed</h2><p>One player can reach the whole room with a quiet phrase. A late arrival can follow the side aisle into the audience without crossing the performance space.</p><a href="#hall">Compare concert scale →</a></figcaption></figure>
+  <figure id="hall"><img src="hall.jpg" width="1536" height="1024" alt="A red swallowtail banner hangs over a rock trio in a cloth-roof concert hall. A visible side aisle leads toward the stage.">
+   <figcaption><small>Reed House · Concert study</small><h2 tabindex="-1">The flag grows with the room</h2><p>In this later-size study the flag spans a stage. The band still plays at human scale. A sequence of steel ribs and roof folds carries the room back to the balcony.</p><a href="#booth">Compare listening scale →</a></figcaption></figure>
+  <figure id="people"><img src="people.jpg" width="1536" height="1024" alt="The same textile character wears five distinct outfits. Separate action studies show a guitarist, a wheelchair user and a cheering audience member.">
+   <figcaption><small>Character construction</small><h2 tabindex="-1">Same face, different hem</h2><p>Follow the mint cap across the top row. A strap, coat, shoulder fold and mantle change the outline. The lower row studies the difference between playing, listening and cheering.</p><a href="#plan">See the block plan →</a></figcaption></figure>
+  <figure id="plan"><img src="plan.svg" width="1200" height="800" alt="Four fictional community addresses flank a curved lane. A dotted walking route reaches the red flag. A measured section compares a small booth and a concert hall.">
+   <figcaption><small>Plan and section</small><h2 tabindex="-1">Keep the address</h2><p>The community holds its doorway on the street. Its building can grow behind it. The lower section holds both door heights at 2.25 metres.</p><a href="#street">Return to the street →</a></figcaption></figure>
+ </div>
+ <footer>Original AI-assisted art and production drawings. <a href="production.md">Sources and review notes</a></footer>
+</main>
+<script>
+  const navigation = document.querySelector('nav');
+  const links = [...navigation.querySelectorAll('a')];
+  const plates = [...document.querySelectorAll('figure')];
+  function showPlate(moveFocus) {
+    const current = plates.find(plate => '#' + plate.id === location.hash) || plates[0];
+    for (const plate of plates) plate.hidden = plate !== current;
+    for (const link of links) {
+      if (link.hash === '#' + current.id) link.setAttribute('aria-current', 'page');
+      else link.removeAttribute('aria-current');
+    }
+    if (moveFocus) current.querySelector('h2').focus({preventScroll:true});
+  }
+  document.addEventListener('click', event => {
+    const link = event.target.closest('a[href^="#"]');
+    if (!link || event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
+    event.preventDefault();
+    if (location.hash !== link.hash) history.pushState(null, '', link.hash);
+    const fromCaption = !!link.closest('figcaption');
+    showPlate(fromCaption);
+    if (fromCaption) document.getElementById(link.hash.slice(1)).scrollIntoView({block:'start'});
+  });
+  navigation.addEventListener('keydown', event => {
+    const index = links.indexOf(event.target);
+    if (index < 0) return;
+    const indexForKey = {
+      ArrowLeft: (index + links.length - 1) % links.length,
+      ArrowRight: (index + 1) % links.length,
+      Home: 0, End: links.length - 1
+    };
+    if (!(event.key in indexForKey)) return;
+    event.preventDefault();
+    const target = links[indexForKey[event.key]];
+    target.focus();
+    target.click();
+  });
+  function restorePlate() { showPlate(!!document.activeElement?.closest('figure')); }
+  window.addEventListener('popstate', restorePlate);
+  window.addEventListener('hashchange', restorePlate);
+  showPlate(false);
+</script>
+</html>

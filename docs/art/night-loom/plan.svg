@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="t d">
+ <title id="t">Night Loom block plan</title>
+ <desc id="d">Four community addresses border a street curving from the southwest to the northeast. A dotted path enters the small red-flag booth on the inside bend. Below, the booth and concert hall are shown at the same horizontal scale.</desc>
+ <defs>
+  <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#38394D" stroke-width="1"/></pattern>
+  <pattern id="stitch" width="10" height="10" patternTransform="rotate(24)" patternUnits="userSpaceOnUse"><path d="M0 0V10" stroke="#F6F0DE" opacity=".19" stroke-width="2"/></pattern>
+  <g id="flag"><path d="M-10-18H10V19L0 9L-10 19Z" fill="#EA6B53"/><path d="M-7-5H7" stroke="#FFF5D7" stroke-width="4"/></g>
+ </defs>
+ <rect width="1200" height="800" fill="#191A2C"/>
+ <rect x="32" y="93" width="810" height="472" rx="3" fill="url(#grid)"/>
+ <g font-family="Arial,sans-serif" fill="#F6F0DE">
+  <text x="38" y="48" font-family="Georgia,serif" font-size="35">Night Loom</text><text x="42" y="75" font-size="14" letter-spacing="2">BLOCK PLAN &amp; STREET SECTION</text>
+ </g>
+ <path d="M38 468C193 431 228 476 342 383S497 341 568 292S702 233 828 156" fill="none" stroke="#49485E" stroke-width="72"/>
+ <path d="M39 467C192 430 230 475 342 383S498 341 568 292S702 233 828 156" fill="none" stroke="#80798A" stroke-width="2" stroke-dasharray="10 14"/>
+ <g stroke="#191A2C" stroke-width="6" stroke-linejoin="round">
+  <path d="M131 251L272 233L295 338L156 361Z" fill="#AFC8AE"/>
+  <path d="M131 251L272 233L223 295L156 361ZM272 233L295 338L223 295Z" fill="url(#stitch)" stroke-width="2"/>
+  <path d="M397 127L496 109L548 203L437 248L378 193Z" fill="#BCA8CA"/>
+  <path d="M397 127L477 184L496 109M477 184L437 248" fill="none" stroke-width="3"/>
+  <path d="M394 419L510 381L565 473L451 518Z" fill="#CA996C"/>
+  <path d="M394 419L476 451L510 381M476 451L451 518" fill="none" stroke-width="3"/>
+  <path d="M590 340L786 245L831 364L640 456Z" fill="#B49EC4"/>
+  <path d="M590 340L675 382L655 310M655 310L735 352L719 277M719 277L797 321L786 245" fill="none" stroke="#F6F0DE" stroke-width="3"/>
+ </g>
+ <g>
+  <use href="#flag" transform="translate(244 346) scale(1.3)"/>
+  <path d="M448 223L460 202L472 223L460 215Z" fill="#EFDAFF" stroke="#292941" stroke-width="2"/>
+  <circle cx="471" cy="393" r="12" stroke="#F2CF87" fill="#232439" stroke-width="5"/>
+  <rect x="691" y="281" width="21" height="21" fill="#A1DBC0" stroke="#293140" stroke-width="3"/>
+ </g>
+ <path d="M76 468Q142 446 194 449T240 408L244 374" fill="none" stroke="#FFE6A7" stroke-width="4" stroke-dasharray="5 8"/>
+ <circle cx="76" cy="468" r="6" fill="#FFE6A7"/><path d="M237 381L245 371L251 383" fill="none" stroke="#FFE6A7" stroke-width="3"/>
+ <path d="M868 100V552" stroke="#545167"/>
+ <g fill="#F6F0DE" font-family="Arial,sans-serif">
+  <text x="905" y="134" font-size="23">Community signs</text>
+  <use href="#flag" transform="translate(921 190)"/><text x="951" y="196" font-size="20">Reed House</text>
+  <path d="M907 262L920 240L933 262L920 254Z" fill="#D8BEE8"/><text x="951" y="259" font-size="20">Violet Fold</text>
+  <circle cx="920" cy="321" r="11" fill="none" stroke="#F2CF87" stroke-width="4"/><text x="951" y="327" font-size="20">Amber Ring</text>
+  <rect x="909" y="374" width="22" height="22" fill="#A1DBC0"/><text x="951" y="393" font-size="20">Mint Square</text>
+  <path d="M905 450H951" stroke="#FFE6A7" stroke-width="4" stroke-dasharray="5 6"/><text x="905" y="484" font-size="17">Walk to Reed House</text>
+  <text x="905" y="518" font-size="14" fill="#C3BCCD">Fictional community addresses</text>
+ </g>
+ <path d="M38 574H1162" stroke="#686377"/>
+ <g font-family="Arial,sans-serif" fill="#F6F0DE"><text x="42" y="613" font-size="21">Street section</text><text x="42" y="642" font-size="16" fill="#C3BCCD">Same door height</text><text x="42" y="667" font-size="16" fill="#C3BCCD">1 m = 12 graphic units</text></g>
+ <g fill="none" stroke-linejoin="round">
+  <path d="M220 752H1154" stroke="#857E91" stroke-width="2"/>
+  <path d="M282 751V715Q312 737 342 713V751" stroke="#AFC8AE" stroke-width="4"/>
+  <path d="M289 752V725H307V752" stroke="#F6F0DE" stroke-width="2"/>
+  <path d="M528 752V627Q584 673 656 611Q710 662 784 608Q851 656 912 625V752Z" stroke="#BCA8CA" stroke-width="3"/>
+  <path d="M535 752V725H553V752" stroke="#F6F0DE" stroke-width="2"/>
+  <path d="M656 612V752M784 612V752" stroke="#BCA8CA" stroke-width="1.5"/>
+  <path d="M1018 752V725M1012 752H1024M1012 725H1024" stroke="#F6F0DE" stroke-width="2"/>
+ </g>
+ <g fill="#F6F0DE" font-family="Arial,sans-serif" font-size="16">
+  <text x="275" y="782">5 m booth</text><text x="657" y="782">32 m hall</text><text x="1035" y="744">2.25 m</text>
+ </g>
+</svg>
